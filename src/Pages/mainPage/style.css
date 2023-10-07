@@ -1,0 +1,127 @@
+body{
+  background: rgb(16,17,17);
+  background: linear-gradient(90deg, rgba(16,17,17,1) 0%, rgba(58,64,59,1) 36%, rgba(64,38,39,1) 93%);
+}
+.userInfoAboutExpenseTracker{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+.userInfoAboutExpenseTracker h1{
+  text-transform: capitalize;
+  font-size: 45px;
+  color: rgb(205, 219, 248);
+}
+.userInfoAboutExpenseTracker h2{
+  text-transform: capitalize;
+  font-size: 35px;
+  color: rgb(122, 199, 122);
+}
+.userInfoAboutExpenseTracker h3{
+  text-transform: capitalize;
+  font-size: 30px;
+  color: rgb(204, 189, 167);
+}
+.userInfoAboutExpenseTracker p{
+  text-transform: capitalize;
+  font-size: 20px;
+  color: rgb(255, 190, 190);
+}
+.userInfoAboutExpenseTracker .expense span{
+  text-transform: capitalize;
+  color: red;
+}
+.userInfoAboutExpenseTracker .income span{
+  text-transform: capitalize;
+  color: green;
+}
+.addTransactions button{
+  cursor: pointer;
+  border-radius: 12px;
+  font-size: 20px;
+  background-color: rgb(157, 223, 195);
+  padding: 10px 20px;
+  border: none;
+  margin-left: 12px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.addTransactions{
+  display: flex;
+  gap :16px;
+}
+.addTransactions .IP{
+  border-radius: 10px;
+  padding: 6px 12px;
+  font-size: 17px;
+  background-color: transparent;
+  border: 3px solid white;
+  color: white;
+}
+.addTransactions .transactionType{
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(253, 167, 128);
+  gap: 4px;
+}
+.addTransactions button:hover{
+  background-color: rgb(107, 231, 180);
+}
+.profile{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 200px;
+}
+.profilePhoto{
+  width: 250px;
+  border-radius: 50%;
+  border: 10px double rgb(102, 105, 102);
+}
+
+.signOutBtn{
+  border: none;
+  margin-top: 50px;
+  border-radius: 15px;
+  background: rgb(173,219,204);
+  background: linear-gradient(90deg, rgba(173,219,204,1) 0%, rgba(45,88,98,1) 91%);
+  color: rgb(39, 38, 38);
+  font-size: 22px;
+  font-weight: bold;
+  padding: 10px 20px 10px 20px;
+  text-transform: capitalize;
+}
+
+.signOutBtn:hover{
+  background: rgb(108,212,178);
+  background: linear-gradient(90deg, rgba(108,212,178,1) 0%, rgba(38,74,83,1) 91%);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.transactionBox{
+  background: rgb(32,86,110);
+  background: linear-gradient(90deg, rgba(32,86,110,1) 0%, rgba(45,76,98,1) 91%);
+  color: aliceblue;
+  margin-left: 500px;
+  margin-top: 40px;
+  padding-left: 25px;
+  border-radius: 15px;
+  width: 600px;
+  height: 400px;
+  overflow: auto;
+}
+::-webkit-scrollbar{
+  display: none;
+}
+.transactionBox h3{
+  font-size: 26px;
+  font-weight: 700;
+}
+.transactionBox ul li{
+  font-size: 22px;
+}
