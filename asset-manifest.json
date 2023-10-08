@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/FirebaseExpenseTracker/static/css/main.af9a225a.css",
-    "main.js": "/FirebaseExpenseTracker/static/js/main.66dcb4ee.js",
+    "main.js": "/FirebaseExpenseTracker/static/js/main.d8d55345.js",
     "index.html": "/FirebaseExpenseTracker/index.html",
     "main.af9a225a.css.map": "/FirebaseExpenseTracker/static/css/main.af9a225a.css.map",
-    "main.66dcb4ee.js.map": "/FirebaseExpenseTracker/static/js/main.66dcb4ee.js.map"
+    "main.d8d55345.js.map": "/FirebaseExpenseTracker/static/js/main.d8d55345.js.map"
   },
   "entrypoints": [
     "static/css/main.af9a225a.css",
-    "static/js/main.66dcb4ee.js"
+    "static/js/main.d8d55345.js"
   ]
 }
